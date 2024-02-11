@@ -1,16 +1,50 @@
-# particle_painter
+# Visualizador de Partículas Dinámicas en Flutter
 
-A new Flutter project.
+## Descripción
 
-## Getting Started
+Este proyecto es una prueba de concepto que demuestra cómo utilizar el widget `Canvas` de Flutter para crear una visualización de partículas dinámicas. Las partículas se mueven de manera aleatoria por la pantalla, creando un efecto visual interesante y llamativo. Este ejemplo puede servir como base para proyectos más complejos que requieran animaciones personalizadas o la manipulación de gráficos a bajo nivel en Flutter.
 
-This project is a starting point for a Flutter application.
+## Características
 
-A few resources to get you started if this is your first Flutter project:
+- Uso de `CustomPainter` para dibujar partículas en un canvas.
+- Controlador de partículas para manejar la lógica de movimiento.
+- Interacción con el usuario para añadir partículas en el lugar en que el usuario pulsa.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Tecnologías Utilizadas
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- [Flutter](https://flutter.dev/): SDK de UI para crear aplicaciones natively compiladas.
+- Dart: Lenguaje de programación oficial de Flutter.
+
+## Cómo Empezar
+
+Para ejecutar este proyecto, necesitas tener Flutter instalado en tu sistema. Si aún no lo has hecho, puedes seguir las instrucciones de instalación en el [sitio web oficial de Flutter](https://flutter.dev/docs/get-started/install).
+
+### Pasos para Ejecutar el Proyecto
+
+1. Clona este repositorio en tu máquina local:
+
+```bash
+  git clone https://github.com/tu-usuario/tu-repositorio.git
+```
+
+2. Abre un terminal y navega al directorio del proyecto:
+
+```bash
+  cd particle-painter
+```
+
+3. Descarga las dependencias del proyecto:
+
+```bash
+  flutter pub get
+```
+
+4. Ejecuta el proyecto en un emulador o dispositivo físico:
+
+```bash
+  flutter run
+```
+
+## Licencia
+
+Este proyecto está licenciado bajo [MIT License](https://opensource.org/licenses/MIT).

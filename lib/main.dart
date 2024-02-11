@@ -29,7 +29,7 @@ class _ParticleScreenState extends State<ParticleScreen> {
     super.didChangeDependencies();
     if (!_isInitDone) {
       _controller = ParticleController(
-        numberOfParticles: 10, // Ajusta el número de partículas según sea necesario
+        numberOfParticles: 100, // Ajusta el número de partículas según sea necesario
         screenSize: Size(MediaQuery.of(context).size.width, MediaQuery.of(context).size.height),
         onUpdated: () => setState(() {}),
       )..start();
