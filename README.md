@@ -24,7 +24,7 @@ Para ejecutar este proyecto, necesitas tener Flutter instalado en tu sistema. Si
 1. Clona este repositorio en tu máquina local:
 
 ```bash
-  git clone https://github.com/tu-usuario/tu-repositorio.git
+  git clone https://codeberg.org/betazetadev/particle-painter.git
 ```
 
 2. Abre un terminal y navega al directorio del proyecto:

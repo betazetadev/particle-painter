@@ -3,24 +3,28 @@ import 'particle_controller.dart';
 import 'particle_painter.dart';
 
 void main() {
-  runApp(ParticleApp());
+  runApp(const ParticleApp());
 }
 
 class ParticleApp extends StatelessWidget {
+  const ParticleApp({super.key});
+
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       home: ParticleScreen(),
     );
   }
 }
 
 class ParticleScreen extends StatefulWidget {
+  const ParticleScreen({super.key});
+
   @override
-  _ParticleScreenState createState() => _ParticleScreenState();
+  ParticleScreenState createState() => ParticleScreenState();
 }
 
-class _ParticleScreenState extends State<ParticleScreen> {
+class ParticleScreenState extends State<ParticleScreen> {
   late ParticleController _controller;
   bool _isInitDone = false;
 
@@ -29,7 +33,7 @@ class _ParticleScreenState extends State<ParticleScreen> {
     super.didChangeDependencies();
     if (!_isInitDone) {
       _controller = ParticleController(
-        numberOfParticles: 100, // Ajusta el número de partículas según sea necesario
+        numberOfParticles: 100,
         screenSize: Size(MediaQuery.of(context).size.width, MediaQuery.of(context).size.height),
         onUpdated: () => setState(() {}),
       )..start();

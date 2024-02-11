@@ -1,7 +1,5 @@
 import 'dart:async';
 import 'dart:math';
-import 'dart:ui';
-
 import 'package:flutter/material.dart';
 import 'package:particle_painter/particle.dart';
 
@@ -29,7 +27,7 @@ class ParticleController {
   }
 
   void start() {
-    timer = Timer.periodic(Duration(milliseconds: 16), (timer) {
+    timer = Timer.periodic(const Duration(milliseconds: 16), (timer) {
       _updateParticles();
       onUpdated();
     });
