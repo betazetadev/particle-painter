@@ -2,7 +2,7 @@
 
 ## Descripción
 
-Este proyecto es una prueba de concepto que demuestra cómo utilizar el widget `CustomPainter` de Flutter para crear un `Canvas que muestre una serie de partículas de distintos colores y tamaños de forma dinámica. Las partículas se mueven de manera aleatoria por la pantalla, creando un efecto visual llamativo. Este ejemplo puede servir como base para proyectos más complejos que requieran animaciones personalizadas o la manipulación de gráficos a bajo nivel en Flutter.
+Este proyecto es una prueba de concepto que demuestra cómo utilizar el widget `CustomPainter` de Flutter para crear un `Canvas` que muestre una serie de partículas de distintos colores y tamaños de forma dinámica. Las partículas se mueven de manera aleatoria por la pantalla, creando un efecto visual llamativo. Este ejemplo puede servir como base para proyectos más complejos que requieran animaciones personalizadas o la manipulación de gráficos a bajo nivel en Flutter.
 
 ![Múltiples círculos de diferentes colores moviéndose aleatoriamente por la pantalla colisionando con los bordes de la misma y entre ellos](screenshot.png)
 
