@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'particle_controller.dart';
 import 'particle_painter.dart';
 
 void main() {
   runApp(const ParticleApp());
+  SystemChrome.setEnabledSystemUIMode(SystemUiMode.immersiveSticky);
 }
 
 class ParticleApp extends StatelessWidget {

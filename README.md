@@ -4,6 +4,8 @@
 
 Este proyecto es una prueba de concepto que demuestra cómo utilizar el widget `Canvas` de Flutter para crear una visualización de partículas dinámicas. Las partículas se mueven de manera aleatoria por la pantalla, creando un efecto visual interesante y llamativo. Este ejemplo puede servir como base para proyectos más complejos que requieran animaciones personalizadas o la manipulación de gráficos a bajo nivel en Flutter.
 
+![Múltiples círculos de diferentes colores moviéndose aleatoriamente por la pantalla colisionando con los bordes de la misma y entre ellos](screenshot.png)
+
 ## Características
 
 - Uso de `CustomPainter` para dibujar partículas en un canvas.
